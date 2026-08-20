@@ -1,0 +1,32 @@
+<svg width="560" height="220" viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg">
+    
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0b1830"/>
+        <stop offset="100%" stop-color="#050912"/>
+      </linearGradient>
+      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2.2" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+    <rect width="560" height="220" rx="10" fill="url(#bgGrad)" stroke="#1c4a63"/>
+    <path d="M10 24 L10 10 L24 10" stroke="#3fd4ff" stroke-width="1.6" fill="none" filter="url(#glow)"/>
+<path d="M550 24 L550 10 L536 10" stroke="#3fd4ff" stroke-width="1.6" fill="none" filter="url(#glow)"/>
+<path d="M10 196 L10 210 L24 210" stroke="#3fd4ff" stroke-width="1.6" fill="none" filter="url(#glow)"/>
+<path d="M550 196 L550 210 L536 210" stroke="#3fd4ff" stroke-width="1.6" fill="none" filter="url(#glow)"/>
+    <text x="280.0" y="46" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12"
+          letter-spacing="4" fill="#6f9bb5">SYSTEM</text>
+    <text x="280.0" y="92" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="21"
+          font-weight="800" fill="#eaf6ff" filter="url(#glow)">Do you really want to become a Player?</text>
+
+    <rect x="140.0" y="130" width="120" height="46" rx="4" fill="none"
+          stroke="#39ff8c" stroke-width="1.4" filter="url(#glow)"/>
+    <text x="200.0" y="159" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15"
+          font-weight="800" letter-spacing="2" fill="#39ff8c">YES</text>
+
+    <rect x="300.0" y="130" width="120" height="46" rx="4" fill="none"
+          stroke="#ff5d6c" stroke-width="1.4" filter="url(#glow)"/>
+    <text x="360.0" y="159" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15"
+          font-weight="800" letter-spacing="2" fill="#ff5d6c">NO</text>
+    </svg>

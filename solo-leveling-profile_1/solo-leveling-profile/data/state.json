@@ -1,0 +1,34 @@
+{
+  "last_level": 1,
+  "last_job": "E-Rank Hunter \u00b7 Sage",
+  "unlocked_titles": [],
+  "known_skills": [
+    "YOLOv11 Object Detection",
+    "PoseNet Pose Estimation",
+    "Power BI Dashboards"
+  ],
+  "notifications": [
+    {
+      "text": "The System wants you to know you have reached Level 1."
+    },
+    {
+      "text": "The System wants you to know a new skill has been recorded: [Skill: YOLOv11 Object Detection]."
+    },
+    {
+      "text": "The System wants you to know a new skill has been recorded: [Skill: PoseNet Pose Estimation]."
+    },
+    {
+      "text": "The System wants you to know a new skill has been recorded: [Skill: Power BI Dashboards]."
+    },
+    {
+      "text": "The System wants you to complete today's Daily Quest."
+    }
+  ],
+  "leetcode_baseline_today": 0,
+  "last_run_date": "2026-08-03",
+  "monthly_goals_claimed": [],
+  "banked_xp": 0,
+  "quest_tracking_date": "2026-08-03",
+  "warned_today": false,
+  "pending_penalty_quest": null
+}
