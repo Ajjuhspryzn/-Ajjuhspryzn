@@ -108,7 +108,7 @@ and much more...
 
 </details>
 
-<img width="400" height="400" align="right" alt="image" src="https://github.com/user-attachments/assets/696554ba-f0b2-4f8c-bad4-005530ea2b4e" />
+<img width="400" height="100" align="right" alt="image" src="https://github.com/user-attachments/assets/696554ba-f0b2-4f8c-bad4-005530ea2b4e" />
 
 
 <h2 id="achievements" align=''>Achievements ⚡️ & Testimonials 😇</h2>
