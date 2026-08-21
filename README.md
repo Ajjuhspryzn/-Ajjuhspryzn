@@ -1,9 +1,8 @@
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/3e9fec45-02aa-4b08-8a30-ace45e2f1961" />
-
 <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/65062036/201350431-fac1a82c-7a1e-48ee-89e5-cc14a5e6bc7e.png"></p>
 
-<!-- ![Screenshot from 2023-11-07 21-38-50-modified](https://github.com/prakhartiwari0/prakhartiwari0/assets/65062036/fbc90150-1c06-4993-9798-8a67ad535e5a) -->
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/3e9fec45-02aa-4b08-8a30-ace45e2f1961" />
 
+<!-- ![Screenshot from 2023-11-07 21-38-50-modified](https://github.com/prakhartiwari0/prakhartiwari0/assets/65062036/fbc90150-1c06-4993-9798-8a67ad535e5a) -->
 
 <!-- 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=19&duration=7000&pause=500&color=FFCE76&center=true&vCenter=true&repeat=false&width=450&lines=Find+me+anywhere+with+%40prakhartiwari0)](https://git.io/typing-svg)
