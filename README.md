@@ -136,24 +136,7 @@ and much more...
 
 
 
-<h3 id="support" align='center'> 
- 
- 
 
-Support my work 😄
-</a> </h3>
-
-<!-- 
-<a href="" target="_blank">
-<img src="" alt="">
-</a> 
-
-
-<p align='center'> <strong>I Love Connecting with amazing people like you!😄</strong></p>
-
-<p align='center'><strong>Take Care 🌱</strong></p>
-
--->
 > “Do not be sorry. Be better.”  
 > — **Kratos | God of War**
 
