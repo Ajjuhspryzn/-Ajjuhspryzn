@@ -108,7 +108,7 @@ and much more...
 
 </details>
 
-<img width="1200" height="676" align="right" alt="image" src="https://github.com/user-attachments/assets/696554ba-f0b2-4f8c-bad4-005530ea2b4e" />
+<img width="400" height="400" align="right" alt="image" src="https://github.com/user-attachments/assets/696554ba-f0b2-4f8c-bad4-005530ea2b4e" />
 
 
 <h2 id="achievements" align=''>Achievements ⚡️ & Testimonials 😇</h2>
@@ -128,25 +128,12 @@ and much more...
 </details>
 
 
-<details>
-<summary>Show Testimonials</summary>
-
-If you know me for a while and want to share something about me, you can **create an [issue for testimonials](https://github.com/prakhartiwari0/prakhartiwari0/issues/new/choose).**
-
-| Name | About | Testimonial |
-| ---- | ----------- | ----------- |
-| | | |
-
-</details>
-
-
-<!-- [![Prakhar's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=prakhartiwari0&theme=github)](https://www.heyprakhar.xyz/links) -->
 
 
 <h3 id="support" align='center'> 
  
  
-<a href="https://github.com/sponsors/prakhartiwari0" target="_blank">
+
 Support my work 😄
 </a> </h3>
 
