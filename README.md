@@ -180,3 +180,54 @@ Support my work 😄
 <p align='center'><strong>Take Care 🌱</strong></p>
 
 -->
+## 🖋️ Quote
+
+<!-- DAILY_QUOTE_START -->
+<div align="center">
+### 📖 QUOTE OF THE DAY
+
+<script>
+const quotes = [
+  { text: "Do not be sorry. Be better.", author: "Kratos | God of War" },
+  { text: "Death can have me when it earns me.", author: "Kratos | God of War" },
+  { text: "Arise.", author: "Sung Jinwoo | Solo Leveling" },
+  { text: "Surpass your limits.", author: "Yami Sukehiro | Black Clover" },
+  { text: "Set your heart ablaze!", author: "Kyojuro Rengoku | Demon Slayer" },
+  { text: "Throughout heaven and earth, I alone am the honored one.", author: "Satoru Gojo | Jujutsu Kaisen" },
+  { text: "If you don't fight, you can't win!", author: "Eren Yeager | Attack on Titan" },
+  { text: "Sometimes feelings are easier to hide in another language.", author: "Alisa Kujou (Alya) | Alya Sometimes Hides Her Feelings in Russian" },
+  { text: "Dying to win and risking death to win are completely different.", author: "Satoru Gojo | Jujutsu Kaisen" },
+  { text: "Do not seek strength. Build it.", author: "Kratos | God of War" }
+];
+
+const today = new Date();
+const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
+const quoteIndex = dayOfYear % quotes.length;
+const dailyQuote = quotes[quoteIndex];
+
+document.write(`<blockquote><p><i>"${dailyQuote.text}"</i></p><p>— ${dailyQuote.author}</p></blockquote>`);
+</script>
+
+---
+
+### ⚔️ EQUIPMENT (Tech Stack)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+</p>
+
+---
+
+<div align="center">
+
+`[System]: The grind never stops.`
+
+</div>
