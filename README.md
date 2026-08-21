@@ -3,7 +3,7 @@
 
 
 <!-- ![Screenshot from 2023-11-07 21-38-50-modified](https://github.com/prakhartiwari0/prakhartiwari0/assets/65062036/fbc90150-1c06-4993-9798-8a67ad535e5a) -->
-<img width="300" height="300" alt="i_need_a_video-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/cf68770f-fa45-4211-b14f-9f8a182ac403" />
+<img width="1200" height="950" alt="i_need_a_video-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/cf68770f-fa45-4211-b14f-9f8a182ac403" />
 
 <!-- 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=19&duration=7000&pause=500&color=FFCE76&center=true&vCenter=true&repeat=false&width=450&lines=Find+me+anywhere+with+%40prakhartiwari0)](https://git.io/typing-svg)
@@ -12,7 +12,7 @@
 <h3 align="center"> Set your heart ablaze ❤️‍🔥 <p align="right"></h3>
 
 
-<img width="800" height="450" alt="make_it_as_an_animation_video-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/037b82f5-aae1-40f4-848e-e491e62ad2c6" />
+<img width="300" height="300" alt="make_it_as_an_animation_video-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/037b82f5-aae1-40f4-848e-e491e62ad2c6" />
 
 
 
