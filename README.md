@@ -111,7 +111,8 @@ and much more...
 </details>
 
 
-<img width="300" height="300" align="right" alt="image" src="https://github.com/user-attachments/assets/205bf444-ba4f-4100-9bb5-c7e5185a4471" />
+<img width="800" height="450" align="right" alt="make_it_as_video_nd_the_words-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/7f82480b-0549-4742-b4c0-a5f8b29ec5b5" />
+
 
 
 
