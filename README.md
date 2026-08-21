@@ -14,7 +14,7 @@
 <img width="33%" align='right' src="https://i.giphy.com/media/e0Uiyu70TXQAALdKP9/giphy.webp">
 
 
-<h3 id="intro"> Namaste 🙏 </h3>
+<h3 id="intro"> Yoo 👋🏻 </h3>
 
 I'm **Ajaykumar D**, an **Aspiring B.Tech AI & Data Science student** from Tirupur, India 🇮🇳 <br>
 I am eager to apply my academic knowledge in real-world IT projects.
