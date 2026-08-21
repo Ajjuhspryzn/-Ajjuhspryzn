@@ -12,7 +12,7 @@
 <h3 align="center"> Set your heart ablaze ❤️‍🔥 <p align="right"></h3>
 
 
-<img width="300" height="300" alt="make_it_as_an_animation_video-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/037b82f5-aae1-40f4-848e-e491e62ad2c6" />
+<img width="300" height="300" align="right"  alt="make_it_as_an_animation_video-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/037b82f5-aae1-40f4-848e-e491e62ad2c6" />
 
 
 
