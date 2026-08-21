@@ -4,14 +4,12 @@
 
 <!-- ![Screenshot from 2023-11-07 21-38-50-modified](https://github.com/prakhartiwari0/prakhartiwari0/assets/65062036/fbc90150-1c06-4993-9798-8a67ad535e5a) -->
 
-![violet_github_banner-modified](https://github.com/prakhartiwari0/prakhartiwari0/assets/65062036/7ddcb24f-3be6-4b44-a1d8-352c7d75bed7)
-
 
 <!-- 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=19&duration=7000&pause=500&color=FFCE76&center=true&vCenter=true&repeat=false&width=450&lines=Find+me+anywhere+with+%40prakhartiwari0)](https://git.io/typing-svg)
 -->
 
-<h3 align="center">On a Journey to become a great human being...<p align="right"></h3>
+<h3 align="center"> Set your heart ablaze <p align="right"></h3>
 
 
 <img width="33%" align='right' src="https://i.giphy.com/media/e0Uiyu70TXQAALdKP9/giphy.webp">
