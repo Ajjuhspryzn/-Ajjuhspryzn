@@ -3,7 +3,7 @@
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/3e9fec45-02aa-4b08-8a30-ace45e2f1961" />
 
 <!-- ![Screenshot from 2023-11-07 21-38-50-modified](https://github.com/prakhartiwari0/prakhartiwari0/assets/65062036/fbc90150-1c06-4993-9798-8a67ad535e5a) -->
-<img width="800" height="450" alt="i_need_a_video-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/cf68770f-fa45-4211-b14f-9f8a182ac403" />
+<img width="1600" height="900" alt="i_need_a_video-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/cf68770f-fa45-4211-b14f-9f8a182ac403" />
 
 <!-- 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=19&duration=7000&pause=500&color=FFCE76&center=true&vCenter=true&repeat=false&width=450&lines=Find+me+anywhere+with+%40prakhartiwari0)](https://git.io/typing-svg)
