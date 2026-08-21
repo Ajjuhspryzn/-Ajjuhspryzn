@@ -158,30 +158,336 @@ Support my work 😄
 
 <!-- DAILY_QUOTE_START -->
 <div align="center">
-### 📖 QUOTE OF THE DAY
+============================================================
+FILE 1: .github/workflows/daily-quote.yml
+============================================================
 
-<script>
-const quotes = [
-  { text: "Do not be sorry. Be better.", author: "Kratos | God of War" },
-  { text: "Death can have me when it earns me.", author: "Kratos | God of War" },
-  { text: "Arise.", author: "Sung Jinwoo | Solo Leveling" },
-  { text: "Surpass your limits.", author: "Yami Sukehiro | Black Clover" },
-  { text: "Set your heart ablaze!", author: "Kyojuro Rengoku | Demon Slayer" },
-  { text: "Throughout heaven and earth, I alone am the honored one.", author: "Satoru Gojo | Jujutsu Kaisen" },
-  { text: "If you don't fight, you can't win!", author: "Eren Yeager | Attack on Titan" },
-  { text: "Sometimes feelings are easier to hide in another language.", author: "Alisa Kujou (Alya) | Alya Sometimes Hides Her Feelings in Russian" },
-  { text: "Dying to win and risking death to win are completely different.", author: "Satoru Gojo | Jujutsu Kaisen" },
-  { text: "Do not seek strength. Build it.", author: "Kratos | God of War" }
-];
+name: Update Daily Quote
 
-const today = new Date();
-const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
-const quoteIndex = dayOfYear % quotes.length;
-const dailyQuote = quotes[quoteIndex];
+on:
+  schedule:
+    # Runs every day at 00:30 UTC
+    # = 06:00 AM IST
+    - cron: "30 0 * * *"
 
-document.write(`<blockquote><p><i>"${dailyQuote.text}"</i></p><p>— ${dailyQuote.author}</p></blockquote>`);
-</script>
+  workflow_dispatch:
 
+permissions:
+  contents: write
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update daily quote
+        run: python update_quote.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update daily quote"
+            git push
+          fi
+
+
+============================================================
+FILE 2: update_quote.py
+============================================================
+
+from datetime import date
+from pathlib import Path
+
+
+README_FILE = Path("README.md")
+
+
+QUOTES = [
+    {
+        "quote": "Do not be sorry. Be better.",
+        "author": "Kratos",
+        "source": "God of War",
+    },
+    {
+        "quote": "Death can have me when it earns me.",
+        "author": "Kratos",
+        "source": "God of War",
+    },
+    {
+        "quote": "Arise.",
+        "author": "Sung Jinwoo",
+        "source": "Solo Leveling",
+    },
+    {
+        "quote": "Surpass your limits.",
+        "author": "Yami Sukehiro",
+        "source": "Black Clover",
+    },
+    {
+        "quote": "Set your heart ablaze!",
+        "author": "Kyojuro Rengoku",
+        "source": "Demon Slayer",
+    },
+    {
+        "quote": "Throughout heaven and earth, I alone am the honored one.",
+        "author": "Satoru Gojo",
+        "source": "Jujutsu Kaisen",
+    },
+    {
+        "quote": "If you don't fight, you can't win!",
+        "author": "Eren Yeager",
+        "source": "Attack on Titan",
+    },
+    {
+        "quote": "Sometimes feelings are easier to hide in another language.",
+        "author": "Alisa Kujou (Alya)",
+        "source": "Alya Sometimes Hides Her Feelings in Russian",
+    },
+    {
+        "quote": "Dying to win and risking death to win are completely different.",
+        "author": "Satoru Gojo",
+        "source": "Jujutsu Kaisen",
+    },
+    {
+        "quote": "Do not seek strength. Build it.",
+        "author": "Kratos",
+        "source": "God of War",
+    },
+]
+
+
+START_MARKER = "<!-- DAILY_QUOTE_START -->"
+END_MARKER = "<!-- DAILY_QUOTE_END -->"
+
+
+def get_today_quote():
+    """
+    Select one quote based on the day of the year.
+
+    This means:
+    Day 1  -> Quote 1
+    Day 2  -> Quote 2
+    ...
+    Day 10 -> Quote 10
+    Day 11 -> Quote 1 again
+
+    The order never changes randomly.
+    """
+
+    day_number = date.today().timetuple().tm_yday
+
+    index = (day_number - 1) % len(QUOTES)
+
+    return QUOTES[index]
+
+
+def create_quote_section(quote_data):
+    quote = quote_data["quote"]
+    author = quote_data["author"]
+    source = quote_data["source"]
+
+    return f"""<!-- DAILY_QUOTE_START -->
+
+<div align="center">
+
+### ⚔️ Daily Quote
+
+<br>
+
+> **“{quote}”**
+
+<br>
+
+**— {author} | {source}**
+
+</div>
+
+<!-- DAILY_QUOTE_END -->"""
+
+
+def update_readme():
+    if not README_FILE.exists():
+        raise FileNotFoundError("README.md was not found.")
+
+    content = README_FILE.read_text(encoding="utf-8")
+
+    if START_MARKER not in content:
+        raise ValueError(
+            "DAILY_QUOTE_START marker was not found in README.md."
+        )
+
+    if END_MARKER not in content:
+        raise ValueError(
+            "DAILY_QUOTE_END marker was not found in README.md."
+        )
+
+    start_index = content.index(START_MARKER)
+    end_index = content.index(END_MARKER) + len(END_MARKER)
+
+    quote_data = get_today_quote()
+    new_section = create_quote_section(quote_data)
+
+    updated_content = (
+        content[:start_index]
+        + new_section
+        + content[end_index:]
+    )
+
+    README_FILE.write_text(
+        updated_content,
+        encoding="utf-8"
+    )
+
+    print(
+        f"Updated daily quote: "
+        f"{quote_data['quote']} "
+        f"— {quote_data['author']}"
+    )
+
+
+if __name__ == "__main__":
+    update_readme()
+
+
+============================================================
+FILE 3: ADD THIS ONCE TO YOUR README.md
+============================================================
+
+<!-- DAILY_QUOTE_START -->
+
+<div align="center">
+
+### ⚔️ Daily Quote
+
+<br>
+
+> **“Do not be sorry. Be better.”**
+
+<br>
+
+**— Kratos | God of War**
+
+</div>
+
+<!-- DAILY_QUOTE_END -->
+
+
+============================================================
+FINAL GITHUB STRUCTURE
+============================================================
+
+your-github-profile/
+│
+├── README.md
+├── update_quote.py
+│
+└── .github/
+    └── workflows/
+        └── daily-quote.yml
+
+
+============================================================
+HOW IT WORKS
+============================================================
+
+Every day:
+
+GitHub Actions
+      ↓
+Runs daily-quote.yml
+      ↓
+Runs update_quote.py
+      ↓
+Gets today's day number
+      ↓
+Selects the corresponding quote
+      ↓
+Finds DAILY_QUOTE_START / END
+      ↓
+Replaces ONLY the quote section
+      ↓
+git add README.md
+      ↓
+git commit
+      ↓
+git push
+      ↓
+Your GitHub Profile README updates automatically
+
+
+============================================================
+IMPORTANT
+============================================================
+
+Do NOT manually change the quote every day.
+
+You only need to:
+
+1. Create update_quote.py
+2. Create .github/workflows/daily-quote.yml
+3. Put the DAILY_QUOTE_START / END section in README.md
+4. Push these files to your profile repository
+5. Make sure GitHub Actions is enabled
+
+After that, it is automatic.
+
+
+============================================================
+QUOTE ORDER
+============================================================
+
+Quote 1
+↓
+Quote 2
+↓
+Quote 3
+↓
+Quote 4
+↓
+Quote 5
+↓
+Quote 6
+↓
+Quote 7
+↓
+Quote 8
+↓
+Quote 9
+↓
+Quote 10
+↓
+Quote 1
+↓
+Quote 2
+↓
+...
+
+The order is deterministic.
+
+There is NO random.shuffle().
+There is NO random selection.
+There is NO manual editing.
+
+So the design/order remains stable while the displayed quote
+changes automatically each day.
+
+
+<!-- DAILY_QUOTE_END -->
 ---
 
 ### ⚔️ EQUIPMENT (Tech Stack)
