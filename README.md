@@ -11,7 +11,7 @@
 <h3 align="center"> Set your heart ablaze ❤️‍🔥 <p align="right"></h3>
 
 
-<img width="33%" align='right' src="<img width="720" height="720" alt="image" src="https://github.com/user-attachments/assets/b2309559-ac1d-4b5c-9b0a-8537e9a2d747" />
+<img width="33%" align='right' src="<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/b2309559-ac1d-4b5c-9b0a-8537e9a2d747" />
 ">
 
 
