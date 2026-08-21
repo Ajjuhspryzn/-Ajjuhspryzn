@@ -52,28 +52,6 @@ and much more...
 </details> 
 
 
-<h3 id="blog_posts">Recent Blog Posts</h3>
-
-
-<details>
-<summary>Show Blog posts</summary>
-
-<!-- BLOGPOSTS:START -->
- - 💯 [Useful websites that I have bookmarked &lpar;&amp; you should too&rpar; to Learn &amp; Practice JavaScript](https://hashnode.heyprakhar.com/useful-websites-that-i-have-bookmarked-you-should-too-to-learn-practice-javascript)
- - 🚀 [New to Open Source? Know everything you need to!](https://hashnode.heyprakhar.com/new-to-open-source-know-everything-you-need-to)
- - 🔥 [Sharing my little journey of HacktoberFest with you!](https://hashnode.heyprakhar.com/sharing-my-little-journey-of-hacktoberfest-with-you)<!-- BLOGPOSTS:END -->
-
-</details> 
-
-
-
-<h2 id="github_stats" align=''>GitHub Stats 👨‍💻</h2>
-
-
-| <img src="https://github-readme-stats.vercel.app/api?username=prakhartiwari0&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true" alt="Prakhar's github stats" /> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=prakhartiwari0&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true" /> |  <img  width="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prakhartiwari0&layout=compact" /> |
-| ------------- | ------------- | ------------- |
-
-
 
 <h2 id="skills" align=''> Skills 🌱</h3>
 
