@@ -1,5 +1,6 @@
 <p align="center"><img width="70%" src="https://user-images.githubusercontent.com/65062036/201350431-fac1a82c-7a1e-48ee-89e5-cc14a5e6bc7e.png"></p>
-<img width="1198" height="140" alt="Screenshot 2026-08-22 143622" src="https://github.com/user-attachments/assets/976f7129-8f60-4251-89e4-e1b8c82596e4" />
+
+<img width="800" height="450" alt="can_u_remove_the_hand-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/0601c3c3-f4c0-413d-8597-d64c39fc8e1d" />
 
 
 
