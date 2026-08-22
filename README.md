@@ -117,7 +117,7 @@ and much more...
 
 
 
-<h2 id="achievements" align=''>Achievements ⚡️ & Testimonials 😇</h2>
+<h2 id="achievements" align=''>Achievements ⚡️</h2>
 
 <details>
 <summary>Show Achievements</summary>
@@ -135,7 +135,7 @@ and much more...
 
 
 
-
+<h2 id="Quotes" align=''>Quotes ✍🏻</h2>
 
 > “Do not be sorry. Be better.”  
 > — **Kratos | God of War**
